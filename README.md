@@ -3,6 +3,12 @@
 ## Description
 **OnekoPlugin** is a BetterDiscord plugin that adds a cat that follows your mouse cursor (real). The plugin makes use of the [oneko.js](https://github.com/adryd325/oneko.js) script to create a fun and interactive cat animation on your Discord client.
 
+## Oneko Preview
+
+Here's a GIF of my project in action:
+
+![Oneko](https://github.com/or1z/OnekoPlugin/blob/main/oneko-preview.gif)
+
 ## Features
 - A cat that follows your mouse cursor around the screen.
 - Lightweight and easy to install.
