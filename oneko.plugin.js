@@ -1,6 +1,6 @@
 /**
  * @name OnekoPlugin
- * @version 1.0.0
+ * @version 1.0.1
  * @author or1z
  * @authorId b5se
  * @description Made Possible By: b5se - Adds an interactive cat following your mouse cursor. Made compatible with BetterDiscord plugins.
