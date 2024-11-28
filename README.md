@@ -24,6 +24,9 @@
 This plugin is released under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Changelog
+### 1.0.1 - Fixed Cat Positioning
+- Fixed the cat to stay above all elements at all times, ensuring that it remains on top of the screen without being hidden by other UI elements.
+
 ### 1.0.0 - Initial Release
 - Released the first version of the plugin that makes the cat follow the cursor.
 
