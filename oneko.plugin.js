@@ -64,6 +64,9 @@ class OnekoPlugin {
 
                 // Execute the modified script to create the cat
                 eval(modifiedScript);
+
+                // Ensure the cat stays on top
+                this.makeCatStayOnTop();
             })
             .catch(error => console.error("Error loading oneko.js:", error));
     }
@@ -72,6 +75,15 @@ class OnekoPlugin {
         const onekoElement = document.getElementById("oneko");
         if (onekoElement) {
             onekoElement.remove();
+        }
+    }
+
+    makeCatStayOnTop() {
+        const onekoElement = document.getElementById("oneko");
+        if (onekoElement) {
+            onekoElement.style.position = "fixed";  // Make sure it's fixed to the screen
+            onekoElement.style.zIndex = "9999";     // Ensure it's above all other elements
+            onekoElement.style.pointerEvents = "none";  // Allow interaction with underlying elements
         }
     }
 }
