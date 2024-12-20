@@ -7,7 +7,7 @@
  * @source https://github.com/or1z/OnekoPlugin
  * @changelogDate 2024-11-27
  * @credits adryd325 (oneko.js), or1z (BetterDiscord compatibility)
- * @invite https://discord.gg/swear
+ * @invite swear
  * Changelog: Initial Release: Added mouse-following cat with BetterDiscord compatibility.
  */
 
@@ -21,7 +21,7 @@ const manifest = {
     "authorId": "b5se",
     "description": "Made Possible By: b5se - Adds an interactive cat following your mouse cursor. Made compatible with BetterDiscord plugins.",
     "source": "https://github.com/adryd325/oneko.js",
-    "invite": "https://discord.gg/swear",  // Change this to your actual invite link
+    "invite": "swear",  // Change this to your actual invite link
     "changelog": [{
         "title": "Initial Release",
         "type": "added",
